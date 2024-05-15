@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Interests</title>
+    <link rel = "stylesheet" href = "css/styles.css">
+</head>
+<!--TODO: add heading "My Interests" and make ".navigation" a list of links-->
+<body>
+    <h1 class = "main_heading"> Interests</h1>
+    <section class = "navigation">
+        <nav class = "same_page_navigation">
+            <h3 class = "links_direction" style = padding-left:10px>Paths on this page</h3>
+            <ul class = "top_navigation"> 
+                <li><a href = "#table_interests">My Interests</a></li>
+                <li><a href = "#user_interests">Your Interests</a></li>
+                <li> <a href = "#additional_links">Other Pages</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id = "table_interests" class = "table_interests">
+        <table border = "3">
+            
+            <tr>
+                <th class = "table_header">Interest Name</th>
+                <th class = "table_header">Image of Favorite Interest</th>
+                <th class = "table_header"> Link(s) regarding favorite interest</th>
+                <th class = "table_header">How long it's been an interest for</th>
+            </tr>
+           
+            <tr>
+                <td class = "title"><strong> Anime </strong> </td>
+                <td> <img src = "images/deathnote.jpg" height = "300" width = "400"></td>
+                <td id = "anime_link" class = "link"> <a href = "https://www.netflix.com/title/70204970" target = "_blank"><strong>Death Note</strong></a></td>
+                <td class = "description"><strong> About 2 years.</strong></td>
+            </tr>
+            
+            <tr>
+                <td class = "title"><strong> Video Games </strong></td>
+                <td> <img src = "images/ssx3.jpg" height = "300" width = "400"></td>
+                <td id = "game_link" class = "link">  <a href = "https://www.ea.com/games/ssx/ssx-3" target = "_blank"><strong>SSX 3</strong></a></td>
+                <td class = "description"><strong> Since I was 5 years old. </strong></td>
+            </tr>
+           
+            <tr>
+                <td class = "title"><strong> Programming </strong></td>
+                <td><img src = "images/python.jpg" height="300" width = "400"></td>
+                <td id = "python_link" class = "link"> <a href = "https://www.python.org/doc/" target = "_blank"> <strong>Python</strong></a></td>
+                <td class = "description"><strong> Since a child, but haven't took to time to learn until about last year. </strong></td>
+            </tr>
+        
+        </table>
+        <br>
+
+    </section>
+
+    <section id = "user_interests" class = "user_interests">
+        <form  enctype ="multipart/form-data" target = "_blank" method = "POST">
+            <div class = "user_text_area"> 
+                <label for = "comment">What are some of your interests?</label> <br>
+                <textarea id = "comment" name = "comment" placeholder = "Enter text here." rows = "4" cols = "60"></textarea> <br>
+            </div>
+
+            <br>
+
+            <div id = "additional_links"  class = "additional_links"> 
+                <label for = "links">Any additional links/references you'd like to add to my interests? </label> <br>
+                <input type = "text" id = "links" name = "links"   placeholder = "Enter links here" rows = "6"> <br>
+            
+                <br>
+                <button type = "submit" >Submit</button>
+
+            </div>
+
+        </form>
+    </section>
+
+    <p class= "learn_more">
+        Please feel free to learn more about me via links below!
+    </p>
+    
+    <section class = "bottom_page">
+        <footer>
+            <nav class = "other_pages"> 
+                <table class = "other_pages">
+                    <thead>
+                        <tr>
+                            <th class = "links_direction"> Links to other pages</th>
+                            <th class = "dev_info"> Where to reach me</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul class = "bottom_navigation">
+                                    <li> <a href = "index.html" target= "_blank">Home</a></li>
+                                    <li> <a href = "about_me.html" target = "_blank">About Me &nbsp; </a> </li>
+                                    <li> <a href = "reasoning.html" target= "_blank">Reason for Studying</a> </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class = "dev_access">
+                                    <li> <a href = "mailto:louispij2678@student.faytechcc.edu" target = "_blank">Email</a></li>
+                                    <li><a href = "https://github.com/jnlou" target =" _blank">GitHub</a></li>
+                                    <li><a href = "https://www.linkedin.com/in/jeremiah-louis-pierre-946432270/" target = "_blank">LinkedIn</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </nav>
+        </footer>
+    </section>
+    
+
+    
+</body>
+</html>

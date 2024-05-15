@@ -1,0 +1,156 @@
+:root {
+    --header-display: grid;
+    --header-place-items: center;
+    --header-font: bold 80px;
+    --surrounding-link-color: lightslategray;
+    --content-color: white;
+}
+body {
+    font-family:sans-serif;
+    display: block;
+}
+p {
+    color: white;
+}
+.table_header {
+    width: 400px;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.main_heading {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    display: var(--header-display);
+    place-items: var(--header-place-items);
+    font: bold;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    background-color: black;
+}
+ 
+.navigation {
+    background-color : var(--surrounding-link-color);
+    color: var(--surrounding-content-color);
+}
+ 
+.user_text_area, .user_interests {
+    color:var(--content-color);
+    font-weight: bolder;
+    background-color : black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+body {
+    background-color: black;
+}
+
+li > a {
+    margin : 10px;
+    display: inline-block;
+}
+ 
+button[type = "submit"] {
+    cursor: pointer;
+}
+
+
+
+.other_pages {
+    margin: 9px;
+}
+a:visited, a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover, a:active {
+    color: yellow;
+
+}
+.highlight {
+    background-color: yellow;
+    color: black;
+    padding-left: 5px;
+}
+.goal {
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+}
+.table_interests {
+    background-color:black;
+    color: var(--content-color);
+    display: grid;
+    place-items: center;
+}
+.citypics {
+    clear: both;
+    float: left;
+    padding-right: 3px;
+    
+}
+
+.desc {
+   font-size: smaller;
+   padding: 50px;
+}
+.paragraph_container, .reasoning_container, .about_me_text {
+    display: grid;
+    place-items: center;
+    padding-left: 3px;
+}
+.learn_more {
+    display: grid;
+    place-items: center;
+    padding-left: 3px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 28px;
+}
+.paragraph_desc, .about_me, .reasoning_text {
+    text-align: center;
+    font-size: 30px;
+    font: bold;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 4px;
+
+}
+.links {
+    background-color: var(--surrounding-link-color);
+}
+.link {
+    text-decoration: none;
+}
+label {
+    cursor:text;
+}
+ 
+ 
+ 
+ 
+
+.bottom_page, .same_page_navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+    
+}
+
+ 
+.bottom_navigation, .dev_access, .top_navigation {
+    background-color: lightgrey;
+    color: lightgray ;
+}
+
+.links_direction, .dev_info {
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    width: 250px;
+}
+ 
